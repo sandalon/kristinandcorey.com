@@ -1,0 +1,21 @@
+@import "grid";
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: rgb(50,50,50);
+  background: rgba(50,50,50,0.85);
+}
+
+.header__container{
+  @include row();
+
+  position: relative;
+}
+
+.header__logo {
+  @include col(1);
+}

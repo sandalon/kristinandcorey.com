@@ -1,0 +1,62 @@
+@import "grid";
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.hero {
+  @include col();
+}
+
+.hero__container {
+  width: 275px;
+  background: rgb(50,50,50);
+  background: rgba(50,50,50,0.5);
+  height: 125px;
+  position: absolute;
+  z-index: 0;
+  left: 10%;
+  top: 200px;
+  text-align: center;
+
+  @include mq(600px){
+    width: 325px;
+    height: 100px;
+  }
+
+  @include mq(900px){
+    width: 325px;
+    height: 100px;
+  }
+}
+
+.hero__label {
+  color: White;
+  font-family: Arial;
+  font-size: 1.8em;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.hero__label--right {
+  text-align: right;
+}
+
+.hero__label--cursive {
+  font-family: 'Dancing Script', cursive;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:500px;
+}
+
+.hero--beach {
+  background-image: image-url('beach1.jpg');
+  background-position: center center;
+  background-size: cover;
+}

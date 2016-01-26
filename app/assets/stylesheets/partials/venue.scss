@@ -1,0 +1,51 @@
+@import "grid";
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.venue {
+  @include row(true);
+}
+
+.venue__item {
+  margin-top: 1rem;
+  font-family: 'arial';
+  font-size: 12;
+  height: 160px;
+
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  @include col();
+  @include mq(600px){
+    @include col(1/2);
+    height: 200px;
+  }
+
+  p {
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.item__title {
+  font-family: 'Dancing Script', cursive;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.item__title--subtitle {
+  font-family: arial;
+  font-weight: bold;
+}
+
+.item__title--bold {
+  font-weight: bold;
+}
+
+.item__title--center {
+  text-align: center;
+}
