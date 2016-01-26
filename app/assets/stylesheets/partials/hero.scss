@@ -6,10 +6,10 @@
 }
 
 .hero__container {
-  width: 300px;
+  width: 275px;
   background: rgb(50,50,50);
   background: rgba(50,50,50,0.5);
-  height: 150px;
+  height: 185px;
   position: absolute;
   z-index: 0;
   left: 10%;
@@ -24,7 +24,7 @@
   @include mq(900px){
     width: 375px;
     height: 100px;
-    left: 60%;
+    left: 55%;
   }
 }
 
@@ -58,6 +58,12 @@
 
 .hero--beach {
   background-image: image-url('beach1.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero--keywest {
+  background-image: image-url('keywest.jpg');
   background-position: center center;
   background-size: cover;
 }
