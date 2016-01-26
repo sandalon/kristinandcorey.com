@@ -27,6 +27,19 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  a{
+
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: black;
+  }
 }
 
 .item__title {
@@ -35,6 +48,14 @@
   text-align: center;
   font-weight: bold;
   font-size: 1.8em;
+}
+
+.item__schedule {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 .item__title--subtitle {

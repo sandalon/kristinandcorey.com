@@ -6,10 +6,10 @@
 }
 
 .hero__container {
-  width: 275px;
+  width: 300px;
   background: rgb(50,50,50);
   background: rgba(50,50,50,0.5);
-  height: 125px;
+  height: 150px;
   position: absolute;
   z-index: 0;
   left: 10%;
@@ -17,20 +17,21 @@
   text-align: center;
 
   @include mq(600px){
-    width: 325px;
+    width: 375px;
     height: 100px;
   }
 
   @include mq(900px){
-    width: 325px;
+    width: 375px;
     height: 100px;
+    left: 60%;
   }
 }
 
 .hero__label {
   color: White;
   font-family: Arial;
-  font-size: 1.8em;
+  font-size: 2.0em;
   font-weight: bold;
   display: block;
   position: relative;
