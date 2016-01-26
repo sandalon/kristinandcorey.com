@@ -3,13 +3,14 @@
 
 .venue {
   @include row(true);
+
 }
 
 .venue__item {
   margin-top: 1rem;
   font-family: 'arial';
   font-size: 12;
-  height: 225px;
+  max-width: 440px;
 
   img {
     display: block;
@@ -19,7 +20,7 @@
   @include col();
   @include mq(600px){
     @include col(1/2);
-    height: 200px;
+    //height: 200px;
   }
 
   p {
@@ -28,13 +29,13 @@
     padding-right: 20px;
 
     @include mq(600px){
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
     @include mq(900px){
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 

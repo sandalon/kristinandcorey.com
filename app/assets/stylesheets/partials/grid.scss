@@ -47,6 +47,7 @@ $gutter: 1rem;
 /* Column */
 @mixin col($width: 1, $padding: true) {
   float: left;
+  min-height: 1px;
   width: percentage($width);
   @if($padding == true) {
     padding-left: $gutter/2;
@@ -69,4 +70,6 @@ $gutter: 1rem;
 
 .wrapper {
   @include row;
+  overflow: auto;
+  
 }

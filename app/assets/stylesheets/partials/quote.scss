@@ -1,16 +1,15 @@
 @import "grid";
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
-.registry {
+.quote {
   @include col();
-
+  text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
-  text-align: center;
-  background: rgb(10,186,181);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.registry__container{
-  margin-top: 20px;
-  margin-bottom: 40px;
+.quote--big {
+  font-size: 4em;
 }
