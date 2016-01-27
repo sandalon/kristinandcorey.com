@@ -1,0 +1,26 @@
+@import "grid";
+@import "variables";
+
+.info {
+  @include col();
+  overflow: hidden;
+
+  @include mq(600px){
+      @include col(1/2);
+  }
+}
+
+.info__container {
+  background-color: $textBackground;
+  height: 200px;
+  border-radius: 10px;
+  background-image: image-url('flower.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.info__title{
+  font-family: $font;
+  font-size: 1em;
+  text-align: right;
+}

@@ -15,6 +15,7 @@
   img {
     display: block;
     margin: auto;
+    border: solid 1px black;
   }
 
   @include col();
