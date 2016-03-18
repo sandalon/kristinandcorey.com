@@ -12,14 +12,29 @@
 
 .info__container {
   background-color: $textBackground;
-  height: 200px;
+  min-height: 200px;
   border-radius: 10px;
   background-image: image-url('flower.png');
   background-position: right bottom;
   background-repeat: no-repeat;
+  padding: 10px;
 }
 
 .info__title{
   font-family: $font;
   font-size: 1em;
+}
+
+.info__subTitle{
+  font-family: $font;
+  font-size: 0.8em;
+}
+
+.info__text {
+    font-family: $fontContent;
+    margin-bottom: 10px;
+}
+
+.info--top{
+  margin-top: 20px;
 }

@@ -12,14 +12,25 @@
 
 .schedule__container {
   background-color: $textBackground;
-  height: 200px;
+  //height: 200px;
   border-radius: 10px;
   background-image: image-url('flower.png');
   background-position: right bottom;
   background-repeat: no-repeat;
+  padding: 10px;
 }
 
 .schedule__title{
   font-family: $font;
   font-size: 1em;
+}
+
+.schedule__subTitle{
+  font-family: $font;
+  font-size: 0.8em;
+}
+
+.schedule__text {
+    font-family: $fontContent;
+    margin-bottom: 10px;
 }
