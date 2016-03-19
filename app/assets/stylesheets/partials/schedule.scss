@@ -22,15 +22,18 @@
 
 .schedule__title{
   font-family: $font;
+  color: $titleColor;
   font-size: 1em;
 }
 
 .schedule__subTitle{
   font-family: $font;
+  color: $subTitleColor;
   font-size: 0.8em;
 }
 
 .schedule__text {
     font-family: $fontContent;
+    color: $textColor;
     margin-bottom: 10px;
 }

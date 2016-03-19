@@ -22,17 +22,24 @@
 
 .info__title{
   font-family: $font;
+  color: $titleColor;
   font-size: 1em;
 }
 
 .info__subTitle{
   font-family: $font;
+  color: $subTitleColor;
   font-size: 0.8em;
 }
 
 .info__text {
     font-family: $fontContent;
+    color: $textColor;
     margin-bottom: 10px;
+}
+
+.info__text--black{
+    color: black;
 }
 
 .info--top{
