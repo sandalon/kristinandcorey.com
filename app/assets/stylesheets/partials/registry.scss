@@ -14,13 +14,20 @@
   background-image: image-url('flower.png');
   background-position: right bottom;
   background-repeat: no-repeat;
+  padding: 10px;
 }
 
 .registry__title{
   font-family: $font;
+  color: $titleColor;
   font-size: 1em;
 }
 
+.registry__text {
+    font-family: $fontContent;
+    color: $textColor;
+    margin-bottom: 10px;
+}
 
 .registry--top{
   margin-top: 20px;
