@@ -1,0 +1,32 @@
+@import "grid";
+@import "variables";
+
+.photos {
+  overflow: hidden;
+  @include col();
+  
+  padding: 20px;
+  
+}
+
+.photos__container {
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.photo__item {   
+    width: 95%;
+    
+    img {
+        
+        margin: auto;
+        border: solid 1px black;
+        //padding-left: 10px;
+        //padding-right: 10px;
+        //width: 250px;
+        //height: 250px;
+    }
+}
+
